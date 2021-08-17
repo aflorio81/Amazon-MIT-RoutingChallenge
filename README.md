@@ -8,6 +8,8 @@ This project contains all code developed by our group 'TurkishChurrasco' for sol
 
 Optimization of last-mile delivery routes is a complex operational task, as many factors must be taken into account. For example, the total distance traveled, customer availability and time windows, parking spaces, congestion patterns, etc., all play an important role when defining efficient delivery routes. The ''pool and select'' framework is a machine learning-based framework for optimizing last-mile delivery routes. It works by first generating a large pool of feasible delivery sequences (*pool* phase), then predicting and selecting the best sequence from the pool (*select* phase).
 
+For more details, please refer to **Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization**.
+
 ## Dependencies
 The implementation requires:
 * The `rapidjson` ([https://rapidjson.org](https://rapidjson.org)) XML parser;
