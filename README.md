@@ -12,7 +12,7 @@ Optimization of last-mile delivery routes is a complex operational task in trans
 The **pool and select** framework is a machine learning-based framework for optimizing last-mile delivery routes. In the *pool* phase, a large number of candidate delivery sequences is generated based on structural information acquired from training data. In the *select* phase, the score of each candidate sequence is evaluated by a pre-trained and regularized regression model, and the best (predicted) sequence is returned.
 
 ### Reference
-For more details on the framework and this implementation, please refer to
+For more details on the framework and this implementation, please refer to:
 
 **Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization**.
 
