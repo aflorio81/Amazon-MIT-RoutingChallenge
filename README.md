@@ -21,5 +21,3 @@ The implementation requires:
 * The `rapidjson` ([https://rapidjson.org](https://rapidjson.org)) XML parser;
 * A `date.h` implementation (e.g., [this one](https://github.com/HowardHinnant/date/blob/master/include/date/date.h));
 * The [mlpack](https://www.mlpack.org) library for training the score prediction models by Laso regression.
-
-Sample Makefiles for MacOS and Linux are included.
