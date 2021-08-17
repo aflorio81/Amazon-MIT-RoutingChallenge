@@ -9,7 +9,7 @@ This project contains all code developed by our group *TurkishChurrasco* for sol
 ### Context
 Optimization of last-mile delivery routes is a complex operational task in transportation logistics. Many factors must be taken into account when designing efficient routes, including the total distance traveled by drivers, customer preferences and time windows, availability of parking spaces and spatiotemporal congestion patterns.
 
-The **pool and select** framework is a machine learning-based framework for optimizing last-mile delivery routes. In the *pool* phase, a large number of candidate delivery sequences is generated based on structural information acquired from training data. In the *select* phase, the score of each candidate sequence is evaluated by a pre-trained and regularized regression model, and the best (predicted) sequence is returned.
+The **pool and select** framework is a machine learning-based framework for optimizing last-mile delivery routes. In the *pool* phase, a large number of candidate delivery sequences is generated based on structural information acquired from training data. In the *select* phase, the score of each candidate sequence is evaluated with a pre-trained and regularized regression model, and the best (predicted) sequence is returned.
 
 ### Reference
 For more details on the framework and this implementation, please refer to:
