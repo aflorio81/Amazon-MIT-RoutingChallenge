@@ -14,10 +14,10 @@ The **pool and select** framework is a machine learning-based framework for opti
 ### Reference
 For more details on the framework and this implementation, please refer to:
 
-**Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization**.
+**Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization. In Winkenbach, M., Parks, S., & Noszek, J. (Eds.), Technical Proceedings of the 2021 Amazon Last Mile Routing Research Challenge (pp. XXI.1–XXI.12). MIT Libraries. [https://hdl.handle.net/1721.1/131235](https://hdl.handle.net/1721.1/131235)**
 
 ## Dependencies
 The implementation requires:
 * The `rapidjson` ([https://rapidjson.org](https://rapidjson.org)) XML parser;
 * A `date.h` implementation (e.g., [this one](https://github.com/HowardHinnant/date/blob/master/include/date/date.h));
-* The [mlpack](https://www.mlpack.org) library for training the score prediction models by Laso regression.
+* The [mlpack](https://www.mlpack.org) library for training the score prediction models by Lasso regression.
